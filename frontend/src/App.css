@@ -1,0 +1,77 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.upload-container {
+  margin-bottom: 20px;
+}
+
+.upload-button {
+  background-color: #007bff;
+  color: rgb(246, 245, 245);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.upload-button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+tr:nth-child(even) {
+  background-color: #1f1414;
+}
+
+
+table, th, td{
+  border: 1px solid #000000;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th{
+  background-color: #c42b2b;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.similarity-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.similarity-button:hover {
+  background-color: #218838;
+}
+
+.similarity-result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+table tr {
+  background-color: #190e0e !important;
+}
